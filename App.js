@@ -3,6 +3,9 @@ import { View } from 'react-native';
 
 import Login from './Components/Login';
 import AppContainer from './AppContainer';
+import config from './awsRelated/config'
+
+global._config = config;
 
 class App extends Component{
 

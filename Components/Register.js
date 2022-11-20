@@ -74,7 +74,7 @@ class Register extends Component {
         }
         var that = this;
         request({
-            urlEnd: "register/" + that.state.username + "/" + that.state.username,
+            urlEnd: "register/" + that.state.username + "/" + that.state.password,
             method: "POST",
             data: {
               name: that.state.name,
